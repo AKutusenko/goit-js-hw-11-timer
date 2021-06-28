@@ -35,11 +35,11 @@ class CountdownTimer {
   }
 
   updateClockFace({ days, hours, mins, secs }) {
-    refs.days.textContent = days;
-    refs.hours.textContent = hours;
-    refs.mins.textContent = mins;
+    refs.days.textContent = `${days}:`;
+    refs.hours.textContent = `${hours}:`;
+    refs.mins.textContent = `${mins}:`;
     refs.secs.textContent = secs;
   }
 }
 
-const timer = new CountdownTimer("#Timer-1", "Jun 29, 2021");
+const timer = new CountdownTimer("#Timer-1", "Jan 1, 2022");

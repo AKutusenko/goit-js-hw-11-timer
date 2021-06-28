@@ -1,0 +1,14 @@
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  display: block;
+  font-size: 74px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+}
